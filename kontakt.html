@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt - KMD Stolarstwo</title>
+<meta name="description" content="Kontakt KMD Stolarstwo - Wyszogrodzka 32B, 09-400 Płock, Polska">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html"><span class="name">KMD Stolarstwo</span><span class="sub">Meble na wymiar</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Strona główna</a>
+      <a href="realizacje.html">Realizacje</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="o-nas.html">O mnie</a>
+      <a href="kontakt.html" class="active">Kontakt</a>
+      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="pagehead">
+  <img src="img/g5.jpg" alt="KMD Stolarstwo - Zapytaj o wycenę">
+  <div class="wrap">
+    <span class="eyebrow">Kontakt</span>
+    <h1>Zapytaj o wycenę</h1>
+    <p>Odpowiem na pytania i przygotuję wycenę.</p>
+  </div>
+</section>
+<section>
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Dane kontaktowe</span>
+      <h2 style="margin:var(--space-4) 0 var(--space-6)">KMD Stolarstwo</h2>
+      <div class="info-list">
+        <div class="info-row"><div class="ic"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></div><div><div class="lbl">Telefon</div><a class="val" href="tel:+48500035922">+48 500 035 922</a></div></div>
+        <div class="info-row"><div class="ic"><svg class="ico-mail" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.2" y="5.5" width="17.6" height="13" rx="1.6" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><div class="lbl">E-mail</div><a class="val" href="mailto:maszendadarek@o2.pl">maszendadarek@o2.pl</a></div></div>
+        <div class="info-row"><div class="ic"><svg class="ico-pin" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" fill="none"/><circle cx="12" cy="9.5" r="2.4" fill="currentColor"/></svg></div><div><div class="lbl">Adres</div><div class="val">Wyszogrodzka 32B, 09-400 Płock, Polska</div></div></div>
+        <div class="info-row"><div class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div><div><div class="lbl">Godziny otwarcia</div><div class="val">pon.-pt. 08:00-16:00<br>sob. 08:00-14:00<br>niedziela nieczynne</div></div></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <form class="form" action="https://formsubmit.co/maszendadarek@o2.pl" method="POST">
+        <input type="hidden" name="_subject" value="Zapytanie ze strony KMD Stolarstwo">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div class="fld"><label for="name">Imię / firma</label><input id="name" name="name" type="text" placeholder="np. Jan Kowalski" required></div>
+        <div class="fld"><label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="adres@email.pl" required></div>
+        <div class="fld"><label for="phone">Telefon</label><input id="phone" name="phone" type="tel" placeholder="+48 ..."></div>
+        <div class="fld"><label for="msg">Czego dotyczy zapytanie?</label><textarea id="msg" name="message" placeholder="Napisz krótko, w czym mogę pomóc" required></textarea></div>
+        <button type="submit" class="btn btn-accent" style="width:100%;justify-content:center">Wyślij zapytanie <span class="arr">→</span></button>
+        <p class="note">Wiadomość trafi bezpośrednio do mnie. Można też zadzwonić: +48 500 035 922.</p>
+      </form>
+    </div>
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="wrap reveal">
+    <iframe class="map" title="KMD Stolarstwo - Płock" src="https://maps.google.com/maps?q=KMD%20Stolarstwo%20P%C5%82ock&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="name">KMD Stolarstwo</div>
+        <p>Zakład stolarski Dariusza Maszeńdy w Płocku. Meble na wymiar, schody i drzwi - od 1997 roku.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Nawigacja</h4>
+        <a href="index.html">Strona główna</a>
+        <a href="realizacje.html">Realizacje</a>
+        <a href="oferta.html">Oferta</a>
+        <a href="o-nas.html">O mnie</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+      <div class="foot-col">
+        <h4>Kontakt</h4>
+        <a href="tel:+48500035922">+48 500 035 922</a>
+        <a href="mailto:maszendadarek@o2.pl">maszendadarek@o2.pl</a>
+        <p>Wyszogrodzka 32B, 09-400 Płock, Polska</p>
+        <a href="https://maps.google.com/?cid=10167603123953604159&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA" target="_blank" rel="noopener">Jak dojechać →</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 KMD Stolarstwo</span>
+      <span>Projekt strony: Krzysztof Brzeziński</span>
+    </div>
+  </div>
+</footer>
+
+
+<script src="assets/main.js"></script>
+</body>
+</html>
